@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 784px;
+    background-color: #131313;
+}
+.sliders {
+    display: flex;
+    margin-left: 120px;
+    width: 1200px;
+    height: 614px;
+    margin-top: 125px;
+    gap: 100px;
+    position: relative;
+}
+.slider_content.active {
+    display: flex;
+}
+.slider_content {
+    display: none;
+}
+
+.imeg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 742px;
+}
+/*h3 {
+    font-size: 14px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    color: #E3B873;
+}*/
+.photo {
+    width: 742px;
+    padding-top: 85px;
+    margin-left: -20px;
+}
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 434px;
+    margin-top: 82px;
+    margin-right: 124px;
+    position: relative;
+}
+.titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+    position: absolute;
+    top: 103px;
+    left: 121px;
+    cursor: pointer;
+}
+
+.title {
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Yeseva One;
+    font-weight: 400;
+}
+.title:hover {
+    cursor: pointer;
+}
+.title.active {
+    color: #E3B873;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #E3B873;
+}
+.img {
+    margin-left: 0;
+    padding: 0;
+}
+.heading {
+    display: flex;
+
+}
+h1 {
+    font-size: 27px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    color: #E3B873;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Nunito Sans;
+    color: #FFFFFF;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 40px;
+    gap: 40px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 18px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    color: #E3B873;
+}
+button {
+    background: none;
+    background-color: transparent;
+    border: none;
+}
+button:hover,
+.title:hover {
+    cursor: pointer;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 680px;
+    left: 934px;
+}
+.btn-dot {
+    width: 10px;
+    height: 10px;
+    color: rgba(255, 255, 255, 0.3);
+}
+.active-dot {
+    background-color: #fff;
+}
